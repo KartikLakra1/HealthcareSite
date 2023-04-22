@@ -10,7 +10,7 @@
   body {
     max-width: 1440px;
     background-color: #f0f4f5;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: auto;
   }
   
@@ -136,4 +136,62 @@
     right: 0;
     bottom: 0;
     height: 90%;
+  }
+
+  .login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8%;
+  }
+  .login div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+  }
+  .left{
+    background: url(../images/heartstetho.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 70%;
+    border-radius: 10px;
+  }
+  .right{
+    padding-right: 4%;
+    border: 2px solid black;
+    border-left: none;
+    height: 80vh;
+    width: 34%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+  }
+  .right h1{
+    font-size: 40px;
+    padding-bottom: 5%;
+    border-bottom: 2px solid #20bc7e;
+    margin-bottom: 20px;
+  }
+  form label{
+    font-size: 20px;
+  }
+  form input{
+    width: 250px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+
+  button{
+    padding: 6px 12px;
+    margin: 15px 6px;
+    border-radius: 6px;
+    background-color: #20bc7e;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
   }
