@@ -159,6 +159,13 @@
     width: 70%;
     border-radius: 10px;
   }
+  .left h1{
+    font-size: 30px;
+  }
+  .left p{
+    font-size: 20px;
+  }
+
   .right{
     padding-right: 4%;
     border: 2px solid black;
@@ -194,4 +201,34 @@
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
+  }
+
+  footer{
+    margin-top: 3%;
+    width: 100%;
+    height: 50vh;
+    background: url(../images/footer-home-image.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .left-footer{
+    display: flex;
+    align-items: center;
+    padding: 2% 3%;
+    display: flex;
+    flex-direction: column;
+    /* float: left; */
+    justify-content: center;
+  }
+
+  .left-footer img{
+    width: 40%;
+    height: 20%;
+  }
+
+  .left-footer h1{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
   }
