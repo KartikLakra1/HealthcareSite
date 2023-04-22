@@ -10,7 +10,7 @@
   body {
     max-width: 1440px;
     background-color: #f0f4f5;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: auto;
   }
   
@@ -50,3 +50,44 @@
     color: black;
   }
   
+
+  /* section styling */
+  section{
+    margin: 3px 3px;
+  }
+  section div{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin: 3% 5%;
+    cursor: pointer;
+  }
+
+  section div h1{
+    font-size: 70px;
+    /* color: #20bc7e; */
+    border-bottom: 1px solid black;
+  }
+  section div h1 a{
+    color: #20bc7e;
+  }
+  section div p{
+    font-size: 26px;
+    line-height: 50px;
+    margin: 2% 0;
+  }
+  section div ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    float: left;
+  }
+  section div ul li{
+    float: left;
+    line-height: 22px;
+  }
