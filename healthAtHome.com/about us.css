@@ -94,6 +94,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  .head{
+    color: red;
+  }
   
   .achievementCard span {
     font-size: 25px;
